@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kayseri Spor Taraftar Kayıt Olma</title>
+<script src="SpryAssets/SpryValidationPassword.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationPassword.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<style type="text/css">
+body,td,th {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 24px;
+}
+.menu a:link {
+	text-decoration: none;
+	color: white;
+	transition:0.7s;
+	background-color:red;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color:black;
+	background-color:yellow;
+	border-radius: 13px;
+}
+
+.menu a {
+	font-size: 26px;
+}
+</style>
+</head>
+ 
+<body>
+<div class="ana_govde">
+  <div class="baslik">
+    <div class="logo">
+    <img src="websıtem/image/logo.png" width="250" height="100" alt="logo" /> </div>
+    <div class="menu"> 
+    <table width="550" border="0">
+  <tr>
+   
+        <td><a href="index.html">Anasayfa</a></td>
+    <td><a href="hakkımızda.html">Hakkında</a></td>
+    <td><a href="iletişim.html">İletişim</a></td>
+    <td><a href="bilgiler.html">Bilgiler</a></td>
+    <td><a href="kayıtolma1.html">Kayıt Ol</a></td>
+  </tr>
+</table>
+
+    </div>
+  </div>
+<fieldset>
+  <legend>Kayseri Spor Taraftar Kayıt Olma</legend>
+  <form id="form1" name="form1" method="post">
+    <p>
+      <label for="textfield">Adı:</label>
+      <span id="sprytextfield2">
+      <input type="text" name="text2" id="text2">
+      </span>
+      <label for="textfield2">Soyadı:</label>
+      <span id="sprytextfield1">
+      <input type="text" name="text1" id="text1">
+      </span>  </p>
+    <p>
+      <label>
+        Cinsiyet:
+        <input type="radio" name="cinisiyet" value="radyo" id="cinisiyet_0">
+        Kadın</label>
+      <label>
+        <input type="radio" name="cinisiyet" value="radyo" id="cinisiyet_2">
+        Erkek</label>
+      <br>
+    </p>
+    <p>
+      <label for="textfield3">Kullanıcı Adı:</label>
+      <span id="sprytextfield3">
+      <input type="text" name="text3" id="text3">
+      </span></p>
+    <p>
+      <label for="password">Şifre:</label>
+      <span id="sprypassword1">
+      <input type="password" name="password1" id="password1">
+      </span> En az 6 karakter uzunluğunda ve az 2 harf içermelidir.</p>
+    <p>Tekrar Şifre:<span id="sprypassword2">
+      <input type="password" name="password2" id="password2">
+    </span> </p>
+    <p>
+      <label for="email">E-posta Adresi:</label>
+      <span id="sprytextfield4">
+      <input type="text" name="text4" id="text4">
+      </span>  </p>
+    <p>
+      <input name="submit" type="submit" id="submit" onClick="MM_popupMsg('KAYDINIZ BAŞARIYLA TAMAMLANDI! -KAYSERİSPOR TARAFTAR SİTESİ-')" value="Kayıt Ol
+    ">
+      <input type="radio" name="radio" id="radio" value="radio">
+    Kullanıcı Sözleşmesini Kabul Ediyorum.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;  </p>
+  </form>
+</fieldset>
+<script type="text/javascript">
+var sprypassword2 = new Spry.Widget.ValidationPassword("sprypassword2");
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+</script>
+</body>
+</html>
