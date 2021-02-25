@@ -1,0 +1,14 @@
+.ilme{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.ilme a{
+    color: black;
+    transition: 0.5s;
+}
+.ilme a:hover{
+    color: red;
+}
