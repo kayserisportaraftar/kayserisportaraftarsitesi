@@ -1,0 +1,20 @@
+.hakkimda{width:100%; text-align: center; height: auto; margin-bottom: 0px; font-size: 35px; margin-top: 20px; color:white ;background-color: rgb(153, 36, 21);}
+.logom{width: 40%; height: auto; float: left; margin-top:10px;}
+.logom img {width: 100%; height: 100%; } 
+.yazi{width:100%; height:100px; font-size: 30px; margin-top: 8%;  }
+.yazi2 {width:100%; height: 100px; text-align: center; font-size: 25px; }
+.yazi3 {width:100%; height: auto; text-align: center; font-size: 25px; margin-top:5%;  color:white ;background-color: rgb(153, 36, 21); border-radius: px 5px 5px 5px;}
+@media only screen and (max-width:900px)
+{
+    .yazi{font-size: 24px; margin-top:7%;}
+    .yazi2{ margin: top 15px;}
+    .kapsama{
+        display: block;
+    }
+}
+@media only screen and (max-width:450px)
+{
+.yazi3{
+   display: none;
+}
+}
