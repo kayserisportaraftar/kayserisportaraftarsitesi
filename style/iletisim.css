@@ -1,0 +1,13 @@
+.maill a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.maill a:hover{
+    color: brown;
+}
+.maill {
+font-size: 25px;
+text-align: center;
+font-weight:300;
+}
